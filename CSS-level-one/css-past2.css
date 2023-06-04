@@ -1,0 +1,12 @@
+
+body{
+    background-color: cyan;
+}
+
+div{
+    background-color: bisque;
+    border-width: 2px; /*thick, thin...*/
+    border-color: blue;
+    border-style: dotted;
+}
+

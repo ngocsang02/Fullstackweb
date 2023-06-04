@@ -1,0 +1,37 @@
+body{
+    background-color: #a8e6ff;
+}
+#welcome{
+    border: 1px solid black;
+}
+
+h2{
+    color: purple;
+}
+
+input{
+    border: 2px solid rgb(144, 0, 0);
+}
+
+div p{
+    background-color: bisque;
+}
+
+#one{
+    color: purple;
+    text-decoration: overline;
+}
+#textarea1{
+    border: 2px solid gray;
+    width: 800px;
+    height: 400px;
+}
+
+.exit{
+    background-color: blue;
+    border: 2px dashed yellow;
+}
+
+a:hover{
+    color: red;
+}

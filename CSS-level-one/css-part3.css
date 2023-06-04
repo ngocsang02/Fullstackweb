@@ -1,0 +1,27 @@
+.firstDiv{/*call class*/
+    color: blue;
+
+}
+
+.secondDiv{/*call class*/
+    color: green;
+}
+
+#singledout{ /*call id*/
+    color: aqua;
+    text-decoration: line-through;
+}
+
+
+h3 + ul{ /*cách gọi ul liền kề(ngay sau) h3*/
+    border: 4px dotted purple;
+}
+
+li a{
+    color: red;
+}
+
+li a[href="www.npr.org"]{
+    color: blue;
+    border: 1px solid orange;
+}
