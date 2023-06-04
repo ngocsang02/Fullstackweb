@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback</title>
+</head>
+<body>
+    <h1>Hotel Feedback Form</h1>
+    <form action="" method="get">
+        <h3>Are you from Inside VietNam? Or outside VietNam</h3>
+        <label for="invietnam">Inside:</label>
+        <input id="invietnam" type="radio" name="select" value="inside" required>
+        <label for="outvietnam">Outside:</label>
+        <input id="outvietnam" type="radio" name="select" value="outside" required >
+        
+        <h2>How was your service?</h2>
+        <select name="stars" id="">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+        <!-- <input type="submit" value="SUBMIT"> -->
+        <p></p>
+        <input type="checkbox" name="x">Choice 1 <br>
+        <input type="checkbox" name="x">Choice 2 <br>
+        <input type="checkbox" name="x">Choice 3
+
+        <p></p>
+
+        <h2>Any other feedback</h2>
+        <textarea name="mytext" id="" cols="80" rows="8">xxx</textarea>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <form action="mailto:info@linkedin.com" method="post" enctype="text/plain"></form>
+</body>
+</html>
